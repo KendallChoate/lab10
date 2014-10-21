@@ -32,5 +32,7 @@ grass = drawpad.create_rectangle (0, 500, 800, 600, fill = "green")
 
 roof1 = drawpad.create_line (150, 240, 400, 50)
 
+roof2 = drawpad.create_line (650, 240, 400, 50)
+
 
 root.mainloop()
