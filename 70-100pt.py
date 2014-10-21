@@ -24,5 +24,13 @@ drawpad.grid(row=0, column=1)
 
 # Insert your code here to draw the house!
 
+# House outline (roof and the red house) and green grass
+
+house = drawpad.create_rectangle (200, 200, 600, 500, fill = "red")
+
+grass = drawpad.create_rectangle (0, 500, 800, 600, fill = "green")
+
+roof1 = drawpad.create_line (150, 240, 400, 50)
+
 
 root.mainloop()
