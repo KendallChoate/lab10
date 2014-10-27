@@ -46,4 +46,10 @@ window3 = drawpad.create_rectangle (250, 275, 300, 325, fill = "blue")
 
 window4 = drawpad.create_rectangle (500, 275, 550, 325, fill = "blue")
 
+# The yellow door handle and a black chimney 90pt
+
+handle = drawpad.create_oval (440, 440, 450, 450, fill = "yellow")
+
+chimney = drawpad.create_rectangle (500, 100, 550, 175, fill = "black")
+
 root.mainloop()
