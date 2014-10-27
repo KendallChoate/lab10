@@ -34,7 +34,7 @@ roof1 = drawpad.create_line (150, 240, 410, 50)
 
 roof2 = drawpad.create_line (660, 240, 410, 50)
 
-# The white square windows and a brown door 80pt
+# The blue square windows and a brown door 80pt
 
 door = drawpad.create_rectangle (360, 400, 450, 500, fill = "brown")
 
