@@ -24,7 +24,7 @@ drawpad.grid(row=0, column=1)
 
 # Insert your code here to draw the house!
 
-# The house outline (roof and the red house) and green grass 70pt and 100pt
+# The house outline (roof and the red house) and green grass: 70pt and 100pt
 
 house = drawpad.create_rectangle (200, 200, 610, 500, fill = "red")
 
@@ -34,7 +34,7 @@ roof1 = drawpad.create_line (150, 240, 410, 50)
 
 roof2 = drawpad.create_line (660, 240, 410, 50)
 
-# The blue square windows and a brown door 80pt
+# The blue square windows and a brown door: 80pt
 
 door = drawpad.create_rectangle (360, 400, 450, 500, fill = "brown")
 
@@ -46,7 +46,7 @@ window3 = drawpad.create_rectangle (250, 275, 300, 325, fill = "blue")
 
 window4 = drawpad.create_rectangle (500, 275, 550, 325, fill = "blue")
 
-# The yellow door handle and a black chimney 90pt
+# The yellow door handle and a black chimney: 90pt
 
 handle = drawpad.create_oval (440, 440, 450, 450, fill = "yellow")
 
